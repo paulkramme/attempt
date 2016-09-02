@@ -1,13 +1,16 @@
 // initialize digital pin 8 as an output.
+//correct use of #define
+#define PIN_WHEEE 8
+
   void setup() {
-  pinMode(8, OUTPUT);
+  pinMode(PIN_WHEEE, OUTPUT);
 }
 
 // the loop function runs over and over again forever
   void loop() {
-  digitalWrite(8, HIGH);
+  digitalWrite(PIN_WHEEE, HIGH);
   delay(1000);              
-  digitalWrite(8, LOW);    
+  digitalWrite(PIN_WHEEE, LOW);    
   delay(1000); 
  }
 
